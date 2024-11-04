@@ -33,8 +33,9 @@ Copy a PNG with text to the clipboard.
 Run `screenshot_to_text` in the terminal.
 
 ### Removing
+```sh
 sudo rm /usr/local/bin/screenshot_to_text && cd ~/screenshot_to_text  && rm -rf screenshot_to_text
-
+```
 
 
 

@@ -1,4 +1,4 @@
-# A tool to copy text from png on the wayland.
+# A tool to copy text from png on the wayland compositor
 
 ## Dependencies
 
@@ -15,9 +15,20 @@ Before you begin installation, make sure you have the following dependencies ins
 ### Installing Dependencies
 
 To install the dependencies on Arch Linux, run the following command:
-
+arch linux:
 ```bash
 sudo pacman -Syu g++ libpng tesseract tesseract-data-eng tesseract-data-rus leptonica wl-clipboard
+```
+
+ubuntu:
+```
+sudo apt update
+sudo apt install g++ libpng-dev tesseract-ocr tesseract-ocr-eng tesseract-ocr-rus libleptonica-dev wl-clipboard
+```
+
+fedora:
+```
+sudo dnf install gcc-c++ libpng-devel tesseract tesseract-langpack-eng tesseract-langpack-rus leptonica-devel wl-clipboard
 ```
 
 ### Cloning the Repository and Installation
